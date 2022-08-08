@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -748,9 +749,7 @@ h4 {
 
 }
 
-.min-font-size {
-    font-size: 15px;
-}
+
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -838,9 +837,7 @@ h4 {
     background-image: url("img/image-de-presentation.png");
 }
 
-.icon-size i{
-    font-size: 200%;
-}
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1092,4 +1089,19 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* Modifications */
+
+.min-font-size {
+    font-size: 15px;
+}
+/*
+.min-links-size {
+    font-size : 200%;
+}
+*/
+
+.min-icon-size {
+    font-size: 48px;
 }
